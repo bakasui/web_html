@@ -1,0 +1,99 @@
+html,
+header
+{
+	height: 250px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 10px 10px -10px gainsboro;
+}
+	
+.logo{
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+p{
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.list{
+	color: black;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.banner{
+	width: 100%;
+	margin: 2% 0%;
+	overflow: hidden;
+}
+
+.banner img{
+	max-width: 100%;
+	border-radius:25px;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 30%;
+	border-radius: 20px;
+	height: 250px;
+	background: white;
+	float: left;
+	margin: 2% 1.65%;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px gainsboro;
+	position: relative;
+	}
+	
+.container img{
+
+	width: 100%;
+
+	float: left;
+
+}
+
+.container p{
+	clear: both;
+	text-align: center;
+	text-decoration: none;
+	line-height: 60px;
+	font-family: 微软雅黑;
+	font-size: 15px;
+	color: darkgrey;
+	white-space:nowrap;
+}
+	
+.container:hover{
+		box-shadow: 4px 4px 4px gray;
+	}
+
+
+@media screen and (max-width: 640px){
+
+.center{width:96%;margin-top:90px;min-width: 310px;}
+.slider{width: 13px;top: 70px;}
+.link a{margin-left: 5px}
+.contact{margin-left: 10px}
+.contact_logo{width: 120px;}
+.contact p{margin-bottom: 3px;}
+.footer{margin-top: 20px;}
+.work_title{font-size: 24px;}
+}
+@media screen and (max-width: 480px){
+.link{margin-right: 0px}
+.contact{margin-left: 2px}
+.work_title{font-size: 16px;}
+}
