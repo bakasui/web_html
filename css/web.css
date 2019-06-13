@@ -45,17 +45,50 @@ p{
 	justify-content: center;
 }
 
-.sing{
-	width: 30%;
-	border-radius: 20px;
-	height: 250px;
-	background: white;
-	float: left;
-	margin: 2% 1.65%;
+.single{
+
+	width: 100%;
 	overflow: hidden;
+
+}
+
+.single-slide {
+
+  padding: 20px;
+
+  color: #fff;
+
+}
+
+.sing{
+
+	width: 30%;
+
+	border-radius: 10px;
+
+	/*height: 200px;*/
+
+	background: white;
+
+	float: left;
+
+	margin: 2% 1.5%;
+
+	overflow: hidden;
+
+	text-decoration: none;
+
 	box-shadow: 2px 2px 2px gainsboro;
+
 	position: relative;
-	}
+
+}
+
+.sing2{
+
+	margin: 2% 1.5%;
+
+}
 	
 .sing img{
 
@@ -68,29 +101,65 @@ p{
 .sing p{
 	clear: both;
 	text-align: center;
-	text-decoration: none;
 	line-height: 60px;
 	font-family: 微软雅黑;
 	font-size: 15px;
-	color: darkgrey;
-	white-space:nowrap;
+	color: gray;
+	white-space: nowrap;
 }
 	
 .sing:hover{
-		box-shadow: 4px 4px 4px gray;
+		box-shadow: 3px 3px 3px darkgray;
 	}
 
-footer{
-	width: 100%;
-	height: 200px;
+.single .sing:nth-child(n){
+
+	width: 20%;
+
+	margin-top: 2%;
+
+	margin-left: 8%;
+
+	margin-right: 4%;
+
 }
 
-@media screen and (max-width: 400px){
-.sing
-{
-	margin: 2% 1.05%;
-	max-width:100%;
-	margin-top:30px;
-	min-width: 50%;
-	}
+.single .sing:nth-child(2n+1){
+
+	width: 20%;
+	margin-top: 2%;
+	margin-left: 8%;
+	margin-right: 4%;
+
+}
+
+.footer{
+	background: darkgrey;
+	width: 100%;
+	height: 100px;
+}
+
+.footer p{
+	color: white;
+}
+
+@media screen and (max-width: 1201px){
+
+.sing{
+	max-width: 100%;
+}
+
+}
+
+@media screen and (max-width: 641px) {
+.sing p{
+	line-height: 25px; }
+.sing{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+	
 }
