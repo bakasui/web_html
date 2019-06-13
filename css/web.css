@@ -85,12 +85,12 @@ footer{
 	height: 200px;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 400px){
 .sing
-{max-width:50%;margin-top:60px;min-width: 50%;}
-}
-
-@media screen and (max-width: 480px){
-.sing
-{max-width:100%;margin-top:30px;min-width: 100%;}
+{
+	margin: 2% 1.05%;
+	max-width:100%;
+	margin-top:30px;
+	min-width: 50%;
+	}
 }
